@@ -1,0 +1,27 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environnements et fichiers temporaires
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Editeurs
+.vscode/
+.idea/
+
+# Fichiers de cache YOLO
+*.cache

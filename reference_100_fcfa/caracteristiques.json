@@ -1,0 +1,187 @@
+{
+    "reference": "Piece de 100 FCFA bimetallique",
+    "image_source": "100_reference.jpeg",
+    "dimensions_image": {
+        "largeur": 1024,
+        "hauteur": 1024
+    },
+    "geometrie": {
+        "centre_x": 505,
+        "centre_y": 509,
+        "rayon": 506,
+        "aire_contour": 802869.0,
+        "perimetre": 3351.257247209549,
+        "circularite": 0.8983364491999302,
+        "rapport_largeur_hauteur": 0.9990128331688055,
+        "rayon_equivalent": 505.53055299407356
+    },
+    "couleurs": {
+        "moyenne_HSV": [
+            25.401530523436527,
+            103.9324829043889,
+            184.70321024493347
+        ],
+        "moyenne_LAB": [
+            176.64806042521448,
+            127.79127688673381,
+            155.00174188735545
+        ],
+        "profil_radial": [
+            {
+                "rayon_debut": 0.0,
+                "rayon_fin": 0.1,
+                "couleur_moyenne_HSV": [
+                    28.28116842759478,
+                    35.804723430702296,
+                    203.36929770043506
+                ]
+            },
+            {
+                "rayon_debut": 0.1,
+                "rayon_fin": 0.2,
+                "couleur_moyenne_HSV": [
+                    28.590419360185646,
+                    32.97352063649925,
+                    205.03199071771922
+                ]
+            },
+            {
+                "rayon_debut": 0.2,
+                "rayon_fin": 0.3,
+                "couleur_moyenne_HSV": [
+                    28.289544369279746,
+                    32.73480401910068,
+                    205.4148676880223
+                ]
+            },
+            {
+                "rayon_debut": 0.3,
+                "rayon_fin": 0.4,
+                "couleur_moyenne_HSV": [
+                    28.184023584570575,
+                    35.80240818356184,
+                    201.0109043119983
+                ]
+            },
+            {
+                "rayon_debut": 0.4,
+                "rayon_fin": 0.5,
+                "couleur_moyenne_HSV": [
+                    28.534673450201847,
+                    30.579536028313886,
+                    211.49352983465133
+                ]
+            },
+            {
+                "rayon_debut": 0.5,
+                "rayon_fin": 0.6,
+                "couleur_moyenne_HSV": [
+                    28.404819984641097,
+                    26.47838460496002,
+                    220.4011383656322
+                ]
+            },
+            {
+                "rayon_debut": 0.6,
+                "rayon_fin": 0.7,
+                "couleur_moyenne_HSV": [
+                    28.89045105015494,
+                    32.18682811125139,
+                    209.39933624086615
+                ]
+            },
+            {
+                "rayon_debut": 0.7,
+                "rayon_fin": 0.8,
+                "couleur_moyenne_HSV": [
+                    23.509639612757773,
+                    150.0945892182216,
+                    170.6600938266693
+                ]
+            },
+            {
+                "rayon_debut": 0.8,
+                "rayon_fin": 0.9,
+                "couleur_moyenne_HSV": [
+                    21.815715204866493,
+                    187.77051589506624,
+                    158.27177346240458
+                ]
+            },
+            {
+                "rayon_debut": 0.9,
+                "rayon_fin": 1.0,
+                "couleur_moyenne_HSV": [
+                    22.052400031424305,
+                    179.8028255689109,
+                    153.51865818210385
+                ]
+            }
+        ]
+    },
+    "zones": {
+        "centre_gris": {
+            "nom": "Centre gris",
+            "nombre_pixels": 371957,
+            "couleur_moyenne_HSV": [
+                28.46413429509325,
+                31.561250359584577,
+                209.85123818075746
+            ],
+            "couleur_moyenne_LAB": [
+                210.6044515898343,
+                125.30968902319354,
+                138.17552835408395
+            ],
+            "intensite_moyenne": 205.65106719325084,
+            "ecart_type": 42.29148886196559
+        },
+        "couronne_doree": {
+            "nom": "Couronne exterieure",
+            "nombre_pixels": 387295,
+            "couleur_moyenne_HSV": [
+                22.102696910623685,
+                181.05677067868163,
+                158.1273886830452
+            ],
+            "couleur_moyenne_LAB": [
+                140.61803534773236,
+                130.47543603712933,
+                172.97208587769012
+            ],
+            "intensite_moyenne": 128.97438386759447,
+            "ecart_type": 36.527260848472785
+        },
+        "transition": {
+            "nom": "Zone de transition",
+            "nombre_pixels": 45048,
+            "couleur_moyenne_HSV": [
+                28.475248623690288,
+                38.427588350204225,
+                205.54093411472206
+            ],
+            "couleur_moyenne_LAB": [
+                206.03740454626177,
+                125.20475936778547,
+                139.43620138518912
+            ],
+            "intensite_moyenne": 200.6674436156988,
+            "ecart_type": 43.65683371594161
+        }
+    },
+    "texture": {
+        "intensite_moyenne": 168.44977620290936,
+        "ecart_type": 54.99902982212283,
+        "nombre_pixels_bords": 236594
+    },
+    "points_caracteristiques": {
+        "methode": "ORB",
+        "nombre_points": 500
+    },
+    "seuils_segmentation": {
+        "centre_maximum": 0.68,
+        "transition_debut": 0.68,
+        "transition_fin": 0.72,
+        "couronne_debut": 0.72
+    }
+}

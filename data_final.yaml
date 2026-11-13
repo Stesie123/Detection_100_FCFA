@@ -1,0 +1,5 @@
+path: C:/Users/HP/Desktop/Detection_100_FCFA/dataset_final
+train: images/train
+val: images/val
+names:
+  0: piece_100_fcfa

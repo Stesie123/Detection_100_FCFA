@@ -1,0 +1,33 @@
+{
+    "reference": "100 FCFA bimetallique",
+    "pretraitement": {
+        "luminosite": "CLAHE sur le canal V HSV",
+        "orb": "CLAHE sur image en niveaux de gris",
+        "clip_limit": 2.0,
+        "tile_grid_size": [
+            8,
+            8
+        ]
+    },
+    "histogrammes": {
+        "methode": "Histogramme HSV 2D",
+        "canaux": [
+            "Teinte H",
+            "Saturation S"
+        ],
+        "bins": [
+            30,
+            32
+        ],
+        "taille_signature_centre": 960,
+        "taille_signature_couronne": 960
+    },
+    "orb": {
+        "methode": "ORB",
+        "nombre_maximum_points": 1000,
+        "points_centre": 1000,
+        "points_couronne": 1000,
+        "descripteurs_centre": 1000,
+        "descripteurs_couronne": 1000
+    }
+}
