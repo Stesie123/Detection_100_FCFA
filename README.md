@@ -84,7 +84,7 @@ Ouvrir PowerShell et exécuter :
 
 ```powershell
 
-git clone URL\_DU\_DEPOT
+git clone https://github.com/Stesie123/Detection_100_FCFA.git
 
 ```
 
